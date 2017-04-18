@@ -1,0 +1,395 @@
+<div class="apidocDiv">
+<style>
+/*csslint
+*/
+.apidocDiv {
+    background: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.apidocDiv a[href] {
+    color: #33f;
+    font-weight: bold;
+    text-decoration: none;
+}
+.apidocDiv a[href]:hover {
+    text-decoration: underline;
+}
+.apidocCodeCommentSpan {
+    background: #bbf;
+    color: #000;
+    display: block;
+}
+.apidocCodeKeywordSpan {
+    color: #d00;
+    font-weight: bold;
+}
+.apidocCodePre {
+    background: #eef;
+    border: 1px solid;
+    color: #777;
+    padding: 5px;
+    white-space: pre-wrap;
+}
+.apidocFooterDiv {
+    margin-top: 20px;
+    text-align: center;
+}
+.apidocModuleLi {
+    margin-top: 10px;
+}
+.apidocSectionDiv {
+    border-top: 1px solid;
+    margin-top: 20px;
+}
+.apidocSignatureSpan {
+    color: #777;
+    font-weight: bold;
+}
+</style>
+<h1>api documentation for
+    <a
+
+        href="https://github.com/alm-tools/alm#readme"
+
+    >alm (v2.35.1)</a>
+</h1>
+<h4>The best IDE for TypeScript</h4>
+<div class="apidocSectionDiv"><a
+    href="#apidoc.tableOfContents"
+    id="apidoc.tableOfContents"
+><h1>table of contents</h1></a><ol>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.alm">module alm</a><ol>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.</span>listeningAtUrl</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.</span>serverState</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.alm.listeningAtUrl">module alm.listeningAtUrl</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.current">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>current
+            <span class="apidocSignatureSpan">()</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.emit">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>emit
+            <span class="apidocSignatureSpan">(event)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.join">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>join
+            <span class="apidocSignatureSpan">(listener)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.off">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>off
+            <span class="apidocSignatureSpan">(listener)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.on">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>on
+            <span class="apidocSignatureSpan">(listener)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.once">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>once
+            <span class="apidocSignatureSpan">(listener)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.listeningAtUrl.pipe">
+            function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>pipe
+            <span class="apidocSignatureSpan">(te)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>_currentQueue</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>_last</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>listeners</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>listenersOncer</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.alm.serverState">module alm.serverState</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.serverState.addRoute">
+            function <span class="apidocSignatureSpan">alm.serverState.</span>addRoute
+            <span class="apidocSignatureSpan">(app)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.alm.serverState.setServerState">
+            function <span class="apidocSignatureSpan">alm.serverState.</span>setServerState
+            <span class="apidocSignatureSpan">(state)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">alm.</span>serverState</span>
+
+        </li>
+
+    </ol></li>
+
+</ol></div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.alm" id="apidoc.module.alm">module alm</a></h1>
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.alm.listeningAtUrl" id="apidoc.module.alm.listeningAtUrl">module alm.listeningAtUrl</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.current" id="apidoc.element.alm.listeningAtUrl.current">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>current
+        <span class="apidocSignatureSpan">()</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">current = function () {
+    if (_this._last != null) {
+        return Promise.resolve(_this._last);
+    }
+    else {
+        var promise_1 = new Promise(function (resolve, reject) {
+            _this._currentQueue.push({ promise: promise_1, resolve: resolve, reject: reject });
+        });
+        return promise_1;
+    }
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.emit" id="apidoc.element.alm.listeningAtUrl.emit">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>emit
+        <span class="apidocSignatureSpan">(event)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">emit = function (event) {
+<span class="apidocCodeCommentSpan">    /** Update any `current` listeners */
+</span>    _this._last = event;
+    while (_this._currentQueue.length) {
+        var item = _this._currentQueue.pop();
+        item.resolve(event);
+    }
+    /** Update any general listeners */
+    _this.listeners.forEach(function (listener) { return listener(event); });
+    /** Clear the `once` queue */
+    _this.listenersOncer.forEach(function (listener) { return listener(event); });
+    _this.listenersOncer = [];
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.join" id="apidoc.element.alm.listeningAtUrl.join">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>join
+        <span class="apidocSignatureSpan">(listener)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">join = function (listener) {
+    if (_this._last != null) {
+        listener(_this._last);
+    }
+    return _this.on(listener);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.off" id="apidoc.element.alm.listeningAtUrl.off">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>off
+        <span class="apidocSignatureSpan">(listener)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">off = function (listener) {
+    var callbackIndex = _this.listeners.indexOf(listener);
+    if (callbackIndex &#x3e; -1)
+        _this.listeners.splice(callbackIndex, 1);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.on" id="apidoc.element.alm.listeningAtUrl.on">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>on
+        <span class="apidocSignatureSpan">(listener)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">on = function (listener) {
+    _this.listeners.push(listener);
+    return {
+        dispose: function () { return _this.off(listener); }
+    };
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.once" id="apidoc.element.alm.listeningAtUrl.once">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>once
+        <span class="apidocSignatureSpan">(listener)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">once = function (listener) {
+    _this.listenersOncer.push(listener);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.listeningAtUrl.pipe" id="apidoc.element.alm.listeningAtUrl.pipe">
+        function <span class="apidocSignatureSpan">alm.listeningAtUrl.</span>pipe
+        <span class="apidocSignatureSpan">(te)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">pipe = function (te) {
+    return _this.on(function (e) { return te.emit(e); });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.alm.serverState" id="apidoc.module.alm.serverState">module alm.serverState</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.alm.serverState.addRoute" id="apidoc.element.alm.serverState.addRoute">
+        function <span class="apidocSignatureSpan">alm.serverState.</span>addRoute
+        <span class="apidocSignatureSpan">(app)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function addRoute(app) {
+    app.use(&#x27;/serverState.js&#x27;, function (req, res) { return res.send(&#x27;window.serverState = &#x27; + JSON.stringify(exports.serverState
+)); });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.alm.serverState.setServerState" id="apidoc.element.alm.serverState.setServerState">
+        function <span class="apidocSignatureSpan">alm.serverState.</span>setServerState
+        <span class="apidocSignatureSpan">(state)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">function setServerState(state) {
+    exports.serverState = state;
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocFooterDiv">
+    [ this document was created with
+    <a href="https://github.com/kaizhu256/node-utility2" target="_blank">utility2</a>
+    ]
+</div>
+</div>
