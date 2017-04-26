@@ -1,6 +1,6 @@
 # npmdoc-alm
 
-#### api documentation for  [alm (v2.35.1)](https://github.com/alm-tools/alm#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alm)
+#### basic api documentation for  [alm (v2.35.1)](https://github.com/alm-tools/alm#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-alm.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-alm) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-alm.svg)](https://travis-ci.org/npmdoc/node-npmdoc-alm)
 
 #### The best IDE for TypeScript
 
